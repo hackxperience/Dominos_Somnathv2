@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Somnath_Dominos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naa-CZ-hch">
+                                <rect key="frame" x="7" y="40" width="141" height="47"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.backward" catalog="system" title="Menu" imagePadding="30">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="bold"/>
+                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.39215686274509803" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xvi-pD-JTS">
+                                <rect key="frame" x="195" y="95" width="219" height="219"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="219" id="I6t-MG-xvG"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Veggie Paradise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecf-if-qpY">
+                                <rect key="frame" x="20" y="116" width="167" height="31"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Awsome four, tomato, olives, corn cheese" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="De0-CT-WBo">
+                                <rect key="frame" x="20" y="156" width="167" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="eSe-5a-eK8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="990-Zi-EJW">
+                                <rect key="frame" x="20" y="202" width="27" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="1qv-D1-HyA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <color key="textColor" red="0.3803921569" green="0.3799999952" blue="0.3799999952" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crust" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFI-PK-z9Q">
+                                <rect key="frame" x="20" y="389" width="33" height="38"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <color key="textColor" red="0.3803921569" green="0.3799999952" blue="0.3799999952" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add On" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLV-UB-IwP">
+                                <rect key="frame" x="20" y="508" width="50" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="Pkc-Ft-3o5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <color key="textColor" red="0.3803921569" green="0.3799999952" blue="0.3799999952" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Toppings @ Rs.30 each" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CU6-f7-uF6">
+                                <rect key="frame" x="20" y="627" width="173" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="ZQq-S0-Aq9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
+                                <color key="textColor" red="0.3803921569" green="0.3799999952" blue="0.3799999952" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLm-75-qsP">
+                                <rect key="frame" x="20" y="247" width="110" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="sM5-8A-YqP"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="pizza" imagePlacement="top" title="Regular" subtitle="Serves 1" cornerStyle="medium" titleAlignment="center">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                    <fontDescription key="subtitleFontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.3921568627" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zao-aW-xFm">
+                                <rect key="frame" x="284" y="247" width="110" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="Nct-5x-I9i"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="pizza" imagePlacement="top" title="Large" subtitle="Serves 3" cornerStyle="medium" titleAlignment="center">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                    <fontDescription key="subtitleFontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.3921568627" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tS-Je-uKW">
+                                <rect key="frame" x="140" y="235" width="135" height="159"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="pizza" imagePlacement="top" title="Medium" subtitle="Serves 2" cornerStyle="medium" titleAlignment="center">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                    <fontDescription key="subtitleFontDescription" name="Avenir-Light" family="Avenir" pointSize="12"/>
+                                    <color key="baseForegroundColor" red="0.0" green="0.3921568627" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNV-hL-GuU">
+                                <rect key="frame" x="20" y="438" width="163" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="163" id="cxa-iy-EZp"/>
+                                    <constraint firstAttribute="height" constant="70" id="dtN-W0-9rh"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="New Hand Tossed">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                    <attributedString key="attributedSubtitle">
+                                        <fragment content="Rs.395">
+                                            <attributes>
+                                                <font key="NSFont" size="12" name="Avenir-Black"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.0035716688239999998" green="0.0" blue="0.0077213425700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gU-AB-24x">
+                                <rect key="frame" x="20" y="554" width="147" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="ues-CA-9nT"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Extra Cheese">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                    <color key="baseForegroundColor" red="0.0035716688239999998" green="0.0" blue="0.0077213425700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Geq-Ir-XBQ">
+                                <rect key="frame" x="23" y="673" width="147" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="147" id="AHO-8B-Q4v"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="tomato_281240360 (2)" title="Tomato" imagePadding="13">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                    <color key="baseForegroundColor" red="0.0035716688239999998" green="0.0" blue="0.0077213425700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9k-I3-WRJ">
+                                <rect key="frame" x="179" y="673" width="147" height="65"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="Benefits-Of-Olives-For-Skin-Hair-Health.jpg (1)" title="Olives" imagePadding="13">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                    <color key="baseForegroundColor" red="0.0035716688239999998" green="0.0" blue="0.0077213425700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egb-KD-3pd">
+                                <rect key="frame" x="20" y="767" width="257" height="60"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Add To Cart" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                    <color key="baseBackgroundColor" red="0.0" green="0.3921568627" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rs.395" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnt-gs-Ecc">
+                                <rect key="frame" x="302" y="782" width="71" height="31"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xpg-cb-1by">
+                                <rect key="frame" x="200" y="438" width="173" height="70"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Wheat Thin Crust" cornerStyle="medium">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                    <attributedString key="attributedSubtitle">
+                                        <fragment content="Rs.385">
+                                            <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <font key="NSFont" size="12" name="Avenir-Black"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.0035716688239999998" green="0.0" blue="0.0077213425700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.9581591125333685" green="0.97978328516597213" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="rLm-75-qsP" firstAttribute="top" secondItem="990-Zi-EJW" secondAttribute="bottom" constant="7" id="0b7-ao-J9a"/>
+                            <constraint firstItem="dNV-hL-GuU" firstAttribute="firstBaseline" secondItem="Xpg-cb-1by" secondAttribute="firstBaseline" id="0rB-fN-8TL"/>
+                            <constraint firstItem="xvi-pD-JTS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1CB-ig-LZW"/>
+                            <constraint firstItem="990-Zi-EJW" firstAttribute="leading" secondItem="rLm-75-qsP" secondAttribute="leading" id="1kW-EK-Nsm"/>
+                            <constraint firstItem="Xpg-cb-1by" firstAttribute="top" secondItem="Zao-aW-xFm" secondAttribute="bottom" constant="56" id="25q-oK-C2c"/>
+                            <constraint firstItem="tnt-gs-Ecc" firstAttribute="top" secondItem="q9k-I3-WRJ" secondAttribute="bottom" constant="44" id="29h-ey-dl6"/>
+                            <constraint firstItem="rLm-75-qsP" firstAttribute="firstBaseline" secondItem="1tS-Je-uKW" secondAttribute="firstBaseline" id="3Cj-3C-y67"/>
+                            <constraint firstItem="1tS-Je-uKW" firstAttribute="leading" secondItem="nFI-PK-z9Q" secondAttribute="trailing" constant="87" id="4N0-ES-xcU"/>
+                            <constraint firstItem="990-Zi-EJW" firstAttribute="top" secondItem="De0-CT-WBo" secondAttribute="bottom" constant="8" id="4ya-Nu-bgz"/>
+                            <constraint firstItem="naa-CZ-hch" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="5nf-mZ-Jyy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1gU-AB-24x" secondAttribute="trailing" constant="247" id="6Hp-Eh-Q2X"/>
+                            <constraint firstItem="1tS-Je-uKW" firstAttribute="leading" secondItem="rLm-75-qsP" secondAttribute="trailing" constant="10" id="7xU-cg-aqR"/>
+                            <constraint firstItem="Xpg-cb-1by" firstAttribute="leading" secondItem="dNV-hL-GuU" secondAttribute="trailing" constant="17" id="9QA-1K-kBC"/>
+                            <constraint firstItem="WLV-UB-IwP" firstAttribute="top" secondItem="dNV-hL-GuU" secondAttribute="bottom" id="DEK-ej-nSe"/>
+                            <constraint firstItem="Ecf-if-qpY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="DNK-yg-LeY"/>
+                            <constraint firstItem="Xpg-cb-1by" firstAttribute="trailing" secondItem="tnt-gs-Ecc" secondAttribute="trailing" id="DrJ-J1-Ro4"/>
+                            <constraint firstItem="rLm-75-qsP" firstAttribute="leading" secondItem="nFI-PK-z9Q" secondAttribute="leading" id="HPi-hs-hP5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xpg-cb-1by" secondAttribute="trailing" constant="41" id="II7-dM-82X"/>
+                            <constraint firstItem="dNV-hL-GuU" firstAttribute="baseline" secondItem="Xpg-cb-1by" secondAttribute="baseline" id="Jcw-GI-qDP"/>
+                            <constraint firstItem="1tS-Je-uKW" firstAttribute="leading" secondItem="990-Zi-EJW" secondAttribute="trailing" constant="93" id="Jn1-nY-uqy"/>
+                            <constraint firstItem="CU6-f7-uF6" firstAttribute="leading" secondItem="egb-KD-3pd" secondAttribute="leading" id="Lai-gp-Vg3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="q9k-I3-WRJ" secondAttribute="trailing" constant="88" id="NLS-wd-KWQ"/>
+                            <constraint firstItem="Zao-aW-xFm" firstAttribute="leading" secondItem="1tS-Je-uKW" secondAttribute="trailing" constant="9" id="PWo-Nh-IRM"/>
+                            <constraint firstItem="Geq-Ir-XBQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="VU6-7V-UIU"/>
+                            <constraint firstItem="Zao-aW-xFm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="203" id="Wdi-bn-Kgd"/>
+                            <constraint firstItem="De0-CT-WBo" firstAttribute="leading" secondItem="990-Zi-EJW" secondAttribute="leading" id="Wko-vc-01A"/>
+                            <constraint firstItem="WLV-UB-IwP" firstAttribute="leading" secondItem="1gU-AB-24x" secondAttribute="leading" id="Wp7-56-PWk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="egb-KD-3pd" secondAttribute="bottom" constant="35" id="XRi-lJ-ij9"/>
+                            <constraint firstItem="Ecf-if-qpY" firstAttribute="leading" secondItem="De0-CT-WBo" secondAttribute="leading" id="YDa-5e-Icv"/>
+                            <constraint firstItem="Ecf-if-qpY" firstAttribute="top" secondItem="naa-CZ-hch" secondAttribute="bottom" constant="29" id="Ycf-2O-9V0"/>
+                            <constraint firstItem="nFI-PK-z9Q" firstAttribute="top" secondItem="rLm-75-qsP" secondAttribute="bottom" constant="7" id="Zu5-TW-LWj"/>
+                            <constraint firstItem="1gU-AB-24x" firstAttribute="leading" secondItem="CU6-f7-uF6" secondAttribute="leading" id="aA3-nh-1dB"/>
+                            <constraint firstItem="1tS-Je-uKW" firstAttribute="baseline" secondItem="Zao-aW-xFm" secondAttribute="baseline" id="dVg-bH-7HQ"/>
+                            <constraint firstItem="CU6-f7-uF6" firstAttribute="top" secondItem="1gU-AB-24x" secondAttribute="bottom" constant="8" id="e07-Te-lww"/>
+                            <constraint firstItem="Geq-Ir-XBQ" firstAttribute="top" secondItem="CU6-f7-uF6" secondAttribute="bottom" constant="8" id="eM8-DM-Iwy"/>
+                            <constraint firstItem="dNV-hL-GuU" firstAttribute="top" secondItem="nFI-PK-z9Q" secondAttribute="bottom" constant="11" id="fBU-E9-ANi"/>
+                            <constraint firstItem="q9k-I3-WRJ" firstAttribute="leading" secondItem="Geq-Ir-XBQ" secondAttribute="trailing" constant="9" id="kkf-ub-p6O"/>
+                            <constraint firstItem="xvi-pD-JTS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="51" id="lRG-c8-frS"/>
+                            <constraint firstItem="De0-CT-WBo" firstAttribute="top" secondItem="Ecf-if-qpY" secondAttribute="bottom" constant="9" id="lpC-PZ-8jh"/>
+                            <constraint firstItem="rLm-75-qsP" firstAttribute="baseline" secondItem="1tS-Je-uKW" secondAttribute="baseline" id="mIf-JI-azu"/>
+                            <constraint firstItem="1gU-AB-24x" firstAttribute="top" secondItem="WLV-UB-IwP" secondAttribute="bottom" constant="8" id="nWS-fW-oY9"/>
+                            <constraint firstItem="egb-KD-3pd" firstAttribute="centerY" secondItem="tnt-gs-Ecc" secondAttribute="centerY" id="oLA-OJ-dNX"/>
+                            <constraint firstItem="egb-KD-3pd" firstAttribute="top" secondItem="Geq-Ir-XBQ" secondAttribute="bottom" constant="29" id="pQK-FE-gaT"/>
+                            <constraint firstItem="1tS-Je-uKW" firstAttribute="firstBaseline" secondItem="Zao-aW-xFm" secondAttribute="firstBaseline" id="qgO-Uv-r6Z"/>
+                            <constraint firstItem="Ecf-if-qpY" firstAttribute="trailing" secondItem="De0-CT-WBo" secondAttribute="trailing" id="rl4-MR-F7p"/>
+                            <constraint firstItem="xvi-pD-JTS" firstAttribute="leading" secondItem="Ecf-if-qpY" secondAttribute="trailing" constant="8" id="s4e-Z4-aHO"/>
+                            <constraint firstItem="q9k-I3-WRJ" firstAttribute="baseline" secondItem="Geq-Ir-XBQ" secondAttribute="firstBaseline" id="tiZ-9X-M3A"/>
+                            <constraint firstItem="dNV-hL-GuU" firstAttribute="leading" secondItem="WLV-UB-IwP" secondAttribute="leading" id="twY-hd-spx"/>
+                            <constraint firstItem="tnt-gs-Ecc" firstAttribute="leading" secondItem="egb-KD-3pd" secondAttribute="trailing" constant="25" id="vnU-VA-Wkg"/>
+                            <constraint firstItem="Zao-aW-xFm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="y9W-9u-iTP"/>
+                            <constraint firstItem="nFI-PK-z9Q" firstAttribute="leading" secondItem="dNV-hL-GuU" secondAttribute="leading" id="yMh-vS-2vx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="56.919642857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Benefits-Of-Olives-For-Skin-Hair-Health.jpg (1)" width="36" height="36"/>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
+        <image name="pizza" width="64" height="64"/>
+        <image name="tomato_281240360 (2)" width="36" height="36"/>
+    </resources>
+</document>
